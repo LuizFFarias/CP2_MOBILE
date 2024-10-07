@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="FragmentCadastro">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="77dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/cadastro" />
+
+        <EditText
+                android:id="@+id/inputNome"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/input_nome" />
+
+            <EditText
+                android:id="@+id/inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/input_email" />
+
+            <EditText
+                android:id="@+id/inputTelefone"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="48dp"
+                android:hint="@string/input_telefone" />
+
+            <EditText
+                android:id="@+id/inputEndereco"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="48dp"
+                android:hint="@string/input_endereco" />
+
+            <EditText
+                android:id="@+id/inputIdade"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/input_idade" />
+
+        <Spinner
+            android:id="@+id/spinnerOpcoes"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Button
+            android:id="@+id/buttonCadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/button_cadastrar"
+            android:textColorLink="#B3B0B0" />
+    </LinearLayout>
+
+</FrameLayout>

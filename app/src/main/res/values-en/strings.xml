@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="cadastro_title">Registration</string>
+    <string name="input_nome">Name</string>
+    <string name="input_email">Email</string>
+    <string name="input_telefone">Phone</string>
+    <string name="input_endereco">Address</string>
+    <string name="input_idade">Age</string>
+    <string name="button_cadastrar">Register</string>
+    <string name="error_message">Please fill in all fields</string>
+    <string name="lista_title">List of Records</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_update">Update</string>
+    <string name="delete_message">Record deleted</string>
+    <string name="update_message">Update feature coming soon</string>
+</resources>
